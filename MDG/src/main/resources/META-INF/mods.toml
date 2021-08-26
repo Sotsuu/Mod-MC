@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[37,)" 
+license="All rights reserved"
+[[mods]] 
+modId="mdg"
+version="${file.jarVersion}" 
+displayName="Mod normal" 
+logoFile="examplemod.png" 
+credits="Merci a Gwen" 
+description='''
+Miam les pates
+'''
+
+[[dependencies.examplemod]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[37,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
